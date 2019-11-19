@@ -5,10 +5,10 @@ class WelcomeComponent extends React.Component {
     state = {  }
     render() { 
         return (  
-            <Jumbotron fluid>
+            <Jumbotron fluid className="bg">
               <Container fluid>
                 <h1 className="display-3">Welcome to My Bookstore!</h1>
-                <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <p className="lead">I actually finished an assignment after a month of pure failure!</p>
               </Container>
             </Jumbotron>
         );

@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'reactstrap'
 import MyNavComponent from './MyNavComponent';
 import MyFooterComponent from './MyFooterComponent';
 import WelcomComponent from './WelcomeComponent';
-import MyBookstore from "../data/fantasy.json"
+import MyBookstore from "../data/scifi.json"
 import LatestReleaseComponent from './LatestReleaseComponent';
 
 

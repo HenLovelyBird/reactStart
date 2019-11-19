@@ -9,10 +9,12 @@ class LatestReleaseComponent extends React.Component {
                 <Media left href="#">
                     <Media object src={this.props.book.img} alt="book cover image" />
                 </Media>
-                <Media body>
+                <Media body className="ml-2">
                     <Media heading>{this.props.book.title}</Media>
                     {this.props.book.category}
-                </Media>
+                    <br/>
+                    {this.props.book.price}
+                    </Media> 
             </Media>
         );
     }

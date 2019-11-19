@@ -5,15 +5,15 @@ class MyNavComponent extends React.Component {
     state = {}
     render() {
         return (
-             <Nav>
+             <Nav className="Navbar">
             <NavItem> 
-              <NavLink href="#">Home</NavLink>
+              <NavLink className="Links" href="#">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">About</NavLink>
+              <NavLink className="Links" href="#">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Browse</NavLink>
+              <NavLink className="Links" href="#">Browse</NavLink>
             </NavItem>
           </Nav>              
         );

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+img {
+  width: 100px;
+  height: 150px;
+  max-height: 200px;
+  margin-bottom: 3em;
+}
+
+.Navbar {
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+
+.Links {
+  color: blueviolet;
+}
+
+.Links:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.bg {
+  background-color: cornflowerblue;
+}
