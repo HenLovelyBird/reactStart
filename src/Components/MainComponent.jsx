@@ -1,6 +1,7 @@
 import React from 'react';
-import {Container, Row, Col} from "reactstrap";
-import ClaimComponent from './Components/ClaimComponent';
+import {Container, Row, Col} from 'reactstrap'
+import MyNavComponent from './MyNavComponent';
+import MyFooterComponent from './MyFooterComponent';
 
 
 class MainComponent extends React.Component {
@@ -10,7 +11,10 @@ class MainComponent extends React.Component {
             <Container>
                <Row>
                    <Col md="12">
-                       
+                      <MyNavComponent> </MyNavComponent> 
+                   </Col>
+                   <Col md="12">
+                      <MyFooterComponent> </MyFooterComponent> 
                    </Col>
                </Row>
             </Container>
