@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.booksbythefoot.com/shop/pc/catalog/cexotic2_227_thumb.jpg");
+  background-repeat: repeat-x;
 }
 
 code {
@@ -17,6 +19,7 @@ img {
   height: 150px;
   max-height: 200px;
   margin-bottom: 3em;
+  border: 3px solid black;
 }
 
 .Navbar {
@@ -25,7 +28,7 @@ img {
 }
 
 .Links {
-  color: blueviolet;
+  color:whitesmoke;
 }
 
 .Links:hover {
@@ -34,5 +37,10 @@ img {
 }
 
 .bg {
-  background-color: cornflowerblue;
+  background-color: cornflowerblue; 
+}
+
+.text{
+  color:solid black;
+  margin-left: 2em;
 }
