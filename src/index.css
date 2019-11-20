@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://www.booksbythefoot.com/shop/pc/catalog/cexotic2_227_thumb.jpg");
-  background-repeat: repeat-x;
+ 
 }
 
 code {
@@ -28,19 +27,24 @@ img {
 }
 
 .Links {
-  color:whitesmoke;
+  color: black;
 }
 
 .Links:hover {
-  color: blue;
+  color: purple;
   text-decoration: underline;
 }
 
 .bg {
-  background-color: cornflowerblue; 
+  background-image: url("https://www.booksbythefoot.com/shop/pc/catalog/cexotic2_227_thumb.jpg");
+  background-repeat: repeat-x;
 }
 
 .text{
   color:solid black;
   margin-left: 2em;
+}
+
+.display-3 {
+  color: whitesmoke;
 }
