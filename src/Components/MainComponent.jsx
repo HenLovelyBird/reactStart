@@ -21,7 +21,7 @@ class MainComponent extends React.Component {
                    </Col>
                    <Col md="12">
                     {MyBookstore.map((bookEntry, index) => 
-                        <LatestReleaseComponent book={bookEntry} key={index} />
+                        <LatestReleaseComponent book={bookEntry} key={index} /> //props
                     )}
                 </Col>
 
