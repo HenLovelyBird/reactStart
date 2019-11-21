@@ -1,11 +1,11 @@
 import React from 'react';
-import { Media } from 'reactstrap';
+import { Media, Container} from 'reactstrap';
 
 class LatestReleaseComponent extends React.Component {
     render() {
         console.log(this.props)
         return (
-            <Media>
+            <Media >
                 <Media left href="#">
                     <Media object src={this.props.book.img} alt="book cover image" />
                 </Media>

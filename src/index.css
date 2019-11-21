@@ -37,7 +37,7 @@ img {
 
 .bg {
   background-image: url("https://www.booksbythefoot.com/shop/pc/catalog/cexotic2_227_thumb.jpg");
-  background-repeat: repeat-x;
+  background-repeat: none;
 }
 
 .text{
@@ -51,4 +51,9 @@ img {
 
 .lead {
   color: whitesmoke
+}
+
+.mediaBg {
+  background-image: url("https://www.booksbythefoot.com/shop/pc/catalog/cexotic2_227_thumb.jpg");
+  opacity: 0.5;
 }
